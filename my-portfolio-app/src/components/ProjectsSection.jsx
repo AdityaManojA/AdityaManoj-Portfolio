@@ -15,7 +15,7 @@ const ProjectsSection = () => {
  }, [activeFilter]);
 
  return (
-  <section id="work" className="py-20 px-6 bg-white">
+  <section id="work" className="py-20 px-6">
    <div className="max-w-7xl mx-auto">
     <h2 className="text-4xl font-normal text-black mb-12 tracking-wide">Selected Work</h2>
    

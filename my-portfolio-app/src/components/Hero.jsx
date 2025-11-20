@@ -1,20 +1,23 @@
 import React from 'react';
-// IMPORT YOUR PHOTO (Adjust the path and filename as needed)
+
 import myPhoto from '../assets/pfp.png'; 
 
 const Hero = () => {
  return (
   <section className="pt-32 pb-20 px-6">
    <div className="max-w-7xl mx-auto">
-        {/* Changed from single column to two-column grid (lg:grid-cols-2) */}
+
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             
-            {/* COLUMN 1: Hero Text (Maximum width on smaller screens) */}
+
       <div className="max-w-3xl">
        <h1 className="text-6xl font-normal tracking-tight text-black mb-6">
         UI/UX Designer &
         <br />
-        <span className="text-[#609966]">Developer</span>
+        <span className="text-[#6d8965]">Engineer</span>
+        <br />
+        <span className="text-[#043222]">Developer</span>
+        
        </h1>
        <p className="text-xl text-gray-600 tracking-wide leading-relaxed">
         Crafting intuitive digital experiences through thoughtful design and clean code.
