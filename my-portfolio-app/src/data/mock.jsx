@@ -84,7 +84,7 @@ export const mockProjects = [
 ];
 
 export const mockSocialLinks = {
- linkedin: 'https://linkedin.com/in/yourprofile',
- github: 'https://github.com/yourprofile',
- email: 'your.email@example.com'
+linkedin: 'https://www.linkedin.com/in/aditya-manoj-a-0a930b256/',
+ github: 'https://github.com/AdityaManojA/',
+ email: 'adityamanoja@gmail.com'
 };
