@@ -6,8 +6,10 @@ const Hero = () => {
    <div className="max-w-7xl mx-auto">
     <div className="max-w-3xl">
      <h1 className="text-6xl font-normal tracking-tight text-black mb-6">
-      UI/UX Designer &
+      UI/UX Designer
       <br />
+      <span className="text-[#304e33]">Engineer</span>
+      <br/>
       <span className="text-[#609966]">Developer</span>
      </h1>
      <p className="text-xl text-gray-600 tracking-wide leading-relaxed">

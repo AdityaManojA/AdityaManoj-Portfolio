@@ -54,7 +54,7 @@ html {
 
 @layer base {
  * {
-  @apply border-border;
+  @apply border-[hsl(var(--border))]; /* CORRECTED LINE */
   }
  body {
   @apply bg-background text-foreground;

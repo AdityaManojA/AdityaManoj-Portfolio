@@ -1,3 +1,4 @@
+// /src/App.js (Cleaned)
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
@@ -7,26 +8,26 @@ import ProjectsSection from './components/ProjectsSection';
 import Footer from './components/Footer';
 
 const Home = () => {
- return (
-  <div className="bg-white min-h-screen">
-   <Header />
-   <Hero />
-   <ProjectsSection />
-   <Footer />
-  </div>
- );
+  return (
+    <div className="bg-white min-h-screen">
+      <Header />
+      <Hero />
+      <ProjectsSection />
+      <Footer />
+    </div>
+  );
 };
 
 function App() {
- return (
-  <div className="App">
-   <BrowserRouter>
-    <Routes>
-     <Route path="/" element={<Home />} />
-    </Routes>
-   </BrowserRouter>
-  </div>
- );
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
 }
 
 export default App;
