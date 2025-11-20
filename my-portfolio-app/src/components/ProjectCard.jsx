@@ -3,7 +3,7 @@ import { Card, CardContent } from './ui/card';
 
 const ProjectCard = ({ project }) => {
  return (
-  <Card className="group overflow-hidden border-gray-200 hover:border-[#609966] transition-all duration-300">
+  <Card className="group overflow-hidden border-gray-200 hover:border-[#45673c] transition-all duration-300">
    <div className="aspect-[4/3] overflow-hidden bg-gray-100">
     <img
      src={project.image}

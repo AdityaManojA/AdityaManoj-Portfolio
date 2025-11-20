@@ -27,8 +27,8 @@ const ProjectsSection = () => {
        onClick={() => setActiveFilter(category)}
        className={`px-6 py-2 text-sm tracking-wide transition-all duration-300 ${
         activeFilter === category
-         ? 'bg-[#609966] text-white border border-[#609966]'
-         : 'bg-white text-black border border-gray-300 hover:border-[#609966]'
+         ? 'bg-[#45673c] text-white border border-[#45673c]'
+         : 'bg-white text-black border border-gray-300 hover:border-[#45673c]'
        }`}
       >
        {category}

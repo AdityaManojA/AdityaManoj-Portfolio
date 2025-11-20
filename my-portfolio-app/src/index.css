@@ -24,7 +24,7 @@ html {
 
 @layer base {
  :root {
-   --background: 33 50% 95%; 
+   --background: 37 38% 90%; 
     --foreground: 0 0% 3.9%;
     --card: 33 50% 95%; /* Match card background to the overall background */
     --card-foreground: 0 0% 3.9%;

@@ -20,12 +20,12 @@ return (
    <h4 className="text-sm font-normal mb-4 tracking-wider text-gray-400">QUICK LINKS</h4>
    <ul className="space-y-2">
    <li>
-    <a href="#work" className="text-sm tracking-wide hover:text-[#609966] transition-colors">
+    <a href="#work" className="text-sm tracking-wide hover:text-[#043222] transition-colors">
     Work
     </a>
    </li>
    <li>
-    <a href="#about" className="text-sm tracking-wide hover:text-[#609966] transition-colors">
+    <a href="#about" className="text-sm tracking-wide hover:text-[#043222] transition-colors">
     About
     </a>
    </li>
@@ -39,7 +39,7 @@ return (
     href={mockSocialLinks.linkedin}
     target="_blank"
     rel="noopener noreferrer"
-    className="hover:text-[#609966] transition-colors"
+    className="hover:text-[#043222] transition-colors"
     aria-label="LinkedIn"
    >
     <Linkedin size={20} />
@@ -48,14 +48,14 @@ return (
     href={mockSocialLinks.github}
     target="_blank"
     rel="noopener noreferrer"
-    className="hover:text-[#609966] transition-colors"
+    className="hover:text-[#043222] transition-colors"
     aria-label="GitHub"
    >
     <Github size={20} />
    </a>
    <a
     href={`mailto:${mockSocialLinks.email}`}
-    className="hover:text-[#609966] transition-colors"
+    className="hover:text-[#043222] transition-colors"
     aria-label="Email"
    >
     <Mail size={20} />
@@ -63,7 +63,7 @@ return (
    </div>
    <a
    href={`mailto:${mockSocialLinks.email}`}
-   className="text-sm text-gray-400 hover:text-[#609966] transition-colors mt-4 block tracking-wide"
+   className="text-sm text-gray-400 hover:text-[#043222] transition-colors mt-4 block tracking-wide"
    >
    {mockSocialLinks.email}
    </a>

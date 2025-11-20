@@ -12,9 +12,9 @@ const Hero = () => {
 
       <div className="max-w-3xl">
        <h1 className="text-6xl font-normal tracking-tight text-black mb-6">
-        UI/UX Designer &
+        UI/UX Designer,
         <br />
-        <span className="text-[#6d8965]">Engineer</span>
+        <span className="text-[#45673c]">Engineer &</span>
         <br />
         <span className="text-[#043222]">Developer</span>
         
@@ -25,16 +25,17 @@ const Hero = () => {
        </p>
       </div>
 
-            {/* COLUMN 2: Photo */}
-            <div className="flex justify-center lg:justify-end">
-                <div className="w-full max-w-sm md:max-w-md aspect-square overflow-hidden rounded-lg shadow-xl">
+           {/* <div className="flex justify-center lg:justify-end">
+ 
+                <div className="w-full max-w-sm md:max-w-md"> 
                     <img 
                         src={myPhoto} 
                         alt="Aditya Manoj A" 
-                        className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105" 
+                      
+                        className="w-full h-auto object-contain transition-transform duration-500 hover:scale-105" 
                     />
                 </div>
-            </div>
+            </div> */}
 
     </div>
    </div>

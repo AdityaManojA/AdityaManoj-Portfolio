@@ -13,13 +13,13 @@ const Header = () => {
     <nav className="flex items-center gap-6">
      <a
       href="#work"
-      className="text-black text-sm tracking-wide transition-colors hover:text-[#043222]"
+      className="text-black text-sm tracking-wide transition-colors hover:text-[#45673c]"
      >
       Work
      </a>
      <a
       href="#about"
-      className="text-black text-sm tracking-wide transition-colors hover:text-[#043222]"
+      className="text-black text-sm tracking-wide transition-colors hover:text-[#45673c]"
      >
       About
      </a>
@@ -28,7 +28,7 @@ const Header = () => {
        href={mockSocialLinks.linkedin}
        target="_blank"
        rel="noopener noreferrer"
-       className="text-black transition-colors hover:text-[#043222]"
+       className="text-black transition-colors hover:text-[#45673c]"
        aria-label="LinkedIn"
       >
        <Linkedin size={20} />
@@ -37,14 +37,14 @@ const Header = () => {
        href={mockSocialLinks.github}
        target="_blank"
        rel="noopener noreferrer"
-       className="text-black transition-colors hover:text-[#043222]"
+       className="text-black transition-colors hover:text-[#45673c]"
        aria-label="GitHub"
       >
        <Github size={20} />
       </a>
       <a
        href={`mailto:${mockSocialLinks.email}`}
-       className="text-black transition-colors hover:text-[#043222]"
+       className="text-black transition-colors hover:text-[#45673c]"
        aria-label="Email"
       >
        <Mail size={20} />
